@@ -18,6 +18,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" />
+    <link href="css/cloud.css" type="text/css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet">
   	<link rel="stylesheet" href="css/style_menu.css">
   	<script src="js/modernizr.js"></script>
@@ -90,36 +92,10 @@
 
     <div id="fullpage">
       <div id="section-1" class="section">
-        <svg viewBox="0 0 800 600">
-          <symbol id="s-text">
-            <text text-anchor="middle"
-                  x="50%"
-                  y="35%"
-                  class="text--line"
-                  >
-              Mixed Reality
-            </text>
-            <text text-anchor="middle"
-                  x="50%"
-                  y="68%"
-                  class="text--line2"
-                  >
-              Cr4fting
-            </text>
-          </symbol>
-          <g class="g-ants">
-            <use xlink:href="#s-text"
-              class="text-copy"></use>
-            <use xlink:href="#s-text"
-              class="text-copy"></use>
-            <use xlink:href="#s-text"
-              class="text-copy"></use>
-            <use xlink:href="#s-text"
-              class="text-copy"></use>
-            <use xlink:href="#s-text"
-              class="text-copy"></use>
-          </g>
-        </svg>
+        <div id="viewport">
+            <div id="world"></div>
+        </div>
+      <h1 class="insetshadow">Inset Shadow</h1>
       </div>
       <div id="section-2" class="section">
         <div class="starter-template">
@@ -152,5 +128,6 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
     <script src="js/utils.js"></script>
+    <script src="js/cloud.js"></script>
   </body>
 </html>
