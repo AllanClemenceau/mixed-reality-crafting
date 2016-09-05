@@ -42,6 +42,7 @@ jQuery(document).ready(function($) {
             //load the new section
             loadNewContent(sectionTarget);
         } else {
+            $('.toggle-icon').toggleClass('open');
             // otherwise close navigation
             toggleNav(false);
         }

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Mixed Reality Crafting</title>
 
     <link rel="stylesheet" href="css/reset.css">
     <!-- Bootstrap core CSS -->
@@ -24,8 +24,6 @@
   	<link rel="stylesheet" href="css/style_menu.css">
   	<script src="js/modernizr.js"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="css/starter-template.css" rel="stylesheet">
   </head>
 
   <body>
@@ -92,15 +90,9 @@
 
     <div id="fullpage">
       <div id="section-1" class="section">
-        <div id="viewport">
-            <div id="world"></div>
+    		<div id="container">
+          <div id="text-and-shit">MR<br />CT</div>
         </div>
-      	<div class='background'>
-      	</div>
-      	<div class='stars stars-background'></div>
-      	<div class="twinkling twinkling-background"></div>
-        <h1 class="insetshadow">Mixed Reality</h1>
-        <h1 class="insetshadow">Crafting</h1>
       </div>
       <div id="section-2" class="section">
         <div class="starter-template">
@@ -126,13 +118,28 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/library/three.js"></script>
+		<script src="js/library/OrbitControls.js"></script>
+		<script src="js/library/CopyShader.js"></script>
+		<script src="js/library/DigitalGlitch.js"></script>
+
+		<script src="js/library/EffectComposer.js"></script>
+		<script src="js/library/RenderPass.js"></script>
+		<script src="js/library/MaskPass.js"></script>
+		<script src="js/library/ShaderPass.js"></script>
+		<script src="js/library/GlitchPass.js"></script>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
+
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/cloud.js"></script>
+    <script src="js/test.js"></script>
   </body>
 </html>
